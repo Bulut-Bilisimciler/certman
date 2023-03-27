@@ -1,6 +1,6 @@
 package prometheus
 
-func Init() error {
+func Export() error {
 	// TODO
 	return nil
 }

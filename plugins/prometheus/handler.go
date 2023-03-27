@@ -1,6 +1,6 @@
 package prometheus
 
-func Init() error {
+func HandlePrometheusRequest() error {
 	// TODO
 	return nil
 }
