@@ -5,9 +5,10 @@ import "time"
 // Server
 type Server struct {
 	// core opts.
-	ServerName   string   `json:"server_name" example:"www.google.com"`
+	IpAddress    string   `json:"ip_address" example:"8.8.8.8"`
 	Port         int      `json:"port" example:"443"`
 	ProtocolType string   `json:"protocol_type" example:"tcp, tls, http, https"`
+	ServerName   string   `json:"server_name" example:"www.google.com"`
 	Debug        bool     `json:"debug" example:"true, false"`
 	Rules        []string `json:"rules" example:"[\"http.status_code == 200\"]"`
 
