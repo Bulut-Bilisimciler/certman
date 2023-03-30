@@ -9,3 +9,11 @@ package http
 // POST /servers - create new server
 
 // PUT /servers/:id - update server by id
+
+// GET /tasks - list all task
+
+// GET /tasks/:id - get task by id
+
+// POST /task - create new task
+
+// PUT /task/:id - update task by id
