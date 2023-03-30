@@ -17,3 +17,5 @@ package http
 // POST /task - create new task
 
 // PUT /task/:id - update task by id
+
+// GET /jobs/:jobid/trigger
